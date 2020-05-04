@@ -16,7 +16,7 @@ body{
     color: #fff;
 }
 #navbar{
-    background-color: aquamarine;
+    background-color: darkcyan;
     color: #fff;
 }
 #navbar ul{
@@ -31,6 +31,12 @@ body{
     text-decoration: none;
     font-size: 18px;
     padding-right: 15px;
+}
+#navbar ul :hover{
+    color: darkred;
+}
+#navbar ul :active{
+    color: green;
 }
 #showcase{
     background-image url:('/Documents/nav/images/kisspng-snow-.jpg');
